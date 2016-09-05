@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Contacts</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    
+   <!-- <ion-list no-lines>
+      <ion-item *ngFor="let chat of chats" (click)="itemSelected(chat)">
+        <my-component [mydata]="chat"></my-component>
+      </ion-item>
+    </ion-list>-->
+    
+<ion-list [virtualScroll]="contactsfound">
+
+  <ion-item *virtualItem="let chat">
+    <contact-view [mydata]="chat"></contact-view>
+  </ion-item>
+
+</ion-list>
+    
+</ion-content>
+

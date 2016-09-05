@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>List ngfor 500</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    
+    <ion-list >
+      <ion-item *ngFor="let chat of chats">
+        <my-component [mydata]="chat"></my-component>
+      </ion-item>
+    </ion-list>
+    
+</ion-content>
+
