@@ -8,6 +8,18 @@
 </ion-header>
 
 <ion-content>
+    <ion-slides [options]="slideOptions">
+    <ion-slide>
+    <h2 style="background-color:red;height:200px;width:350px">Slide 1</h2>
+    </ion-slide>
+    <ion-slide>
+    <h2 style="background-color:green;height:200px;width:350px">Slide 2</h2>
+    </ion-slide>
+    <ion-slide>
+    <h2 style="background-color:blue;height:200px;width:350px">Slide 3</h2>
+    </ion-slide>
+</ion-slides>   
+    
   <ion-list>
     <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
       <ion-icon [name]="item.icon" item-left></ion-icon>
