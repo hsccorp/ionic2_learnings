@@ -43,4 +43,4 @@ captures/
 *.jks
 
 #Ionic Specific
-node_modules/
+#node_modules/

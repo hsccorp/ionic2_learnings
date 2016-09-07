@@ -15,11 +15,14 @@ public contactsfound:any;
  //Hemant: Need to explore more about the way to get the contact list
  // as it is taking 7-10 second to load
  
- Contacts.find(['*'], {filter: ""}).then((contacts) => {
+ Contacts.find(['displayName1']).then((contacts) => {
           this.contactsfound = contacts;
           //alert(contacts.length);
-         // alert(JSON.stringify(contacts[0]));
+          alert(JSON.stringify(contacts[0]));
           })
+          
+          
+          
   
 
     
