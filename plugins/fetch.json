@@ -70,5 +70,54 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "com.sarriaroman.PhotoViewer": {
+        "source": {
+            "type": "registry",
+            "id": "com-sarriaroman-photoviewer"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.telerik.plugins.nativepagetransitions": {
+        "source": {
+            "type": "registry",
+            "id": "com.telerik.plugins.nativepagetransitions"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-videoplayer": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-videoplayer"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-shake": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-shake"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device-motion": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device-motion"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "com.moust.cordova.videoplayer": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/moust/cordova-plugin-videoplayer",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

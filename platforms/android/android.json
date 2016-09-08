@@ -35,6 +35,26 @@
                         {
                             "xml": "<feature name=\"Contacts\"><param name=\"android-package\" value=\"org.apache.cordova.contacts.ContactManager\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"PhotoViewer\"><param name=\"android-package\" value=\"com.sarriaroman.PhotoViewer.PhotoViewer\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NativePageTransitions\"><param name=\"android-package\" value=\"com.telerik.plugins.nativepagetransitions.NativePageTransitions\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"VideoPlayerPlugin\"><param name=\"android-package\" value=\"jp.phi.cordova.plugin.videoplayer.VideoPlayerPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Accelerometer\"><param name=\"android-package\" value=\"org.apache.cordova.devicemotion.AccelListener\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"VideoPlayer\"><param name=\"android-package\" value=\"com.moust.cordova.videoplayer.VideoPlayer\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -56,6 +76,26 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application": [
+                        {
+                            "xml": "<activity android:name=\"com.sarriaroman.PhotoViewer.PhotoActivity\" android:theme=\"@android:style/Theme.Holo.NoActionBar.Fullscreen\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
                             "count": 1
                         }
                     ]
@@ -89,6 +129,24 @@
             "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
         },
         "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "com.sarriaroman.PhotoViewer": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "com.telerik.plugins.nativepagetransitions": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "cordova-plugin-videoplayer": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "cordova-plugin-shake": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "com.moust.cordova.videoplayer": {
             "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
         }
     },
@@ -217,6 +275,55 @@
             "merges": [
                 ""
             ]
+        },
+        {
+            "file": "plugins/com.sarriaroman.PhotoViewer/www/PhotoViewer.js",
+            "id": "com.sarriaroman.PhotoViewer.PhotoViewer",
+            "clobbers": [
+                "PhotoViewer"
+            ]
+        },
+        {
+            "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
+            "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
+            "clobbers": [
+                "window.plugins.nativepagetransitions"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-videoplayer/www/cordova-plugin-videoplayer.js",
+            "id": "cordova-plugin-videoplayer.videoplayer",
+            "clobbers": [
+                "videoplayer"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device-motion/www/Acceleration.js",
+            "id": "cordova-plugin-device-motion.Acceleration",
+            "clobbers": [
+                "Acceleration"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device-motion/www/accelerometer.js",
+            "id": "cordova-plugin-device-motion.accelerometer",
+            "clobbers": [
+                "navigator.accelerometer"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-shake/www/shake.js",
+            "id": "cordova-plugin-shake.Shake",
+            "clobbers": [
+                "shake"
+            ]
+        },
+        {
+            "file": "plugins/com.moust.cordova.videoplayer/www/videoplayer.js",
+            "id": "com.moust.cordova.videoplayer.VideoPlayer",
+            "clobbers": [
+                "VideoPlayer"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -228,6 +335,12 @@
         "ionic-plugin-keyboard": "2.2.1",
         "cordova-plugin-compat": "1.0.0",
         "cordova-plugin-camera": "2.2.0",
-        "cordova-plugin-contacts": "2.1.0"
+        "cordova-plugin-contacts": "2.1.0",
+        "com.sarriaroman.PhotoViewer": "1.1.5",
+        "com.telerik.plugins.nativepagetransitions": "0.6.5",
+        "cordova-plugin-videoplayer": "0.1.4",
+        "cordova-plugin-device-motion": "1.2.1",
+        "cordova-plugin-shake": "0.5.4",
+        "com.moust.cordova.videoplayer": "1.0.1"
     }
 }

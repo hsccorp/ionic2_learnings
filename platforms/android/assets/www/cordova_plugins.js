@@ -123,6 +123,55 @@ module.exports = [
         "merges": [
             ""
         ]
+    },
+    {
+        "file": "plugins/com.sarriaroman.PhotoViewer/www/PhotoViewer.js",
+        "id": "com.sarriaroman.PhotoViewer.PhotoViewer",
+        "clobbers": [
+            "PhotoViewer"
+        ]
+    },
+    {
+        "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
+        "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
+        "clobbers": [
+            "window.plugins.nativepagetransitions"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-videoplayer/www/cordova-plugin-videoplayer.js",
+        "id": "cordova-plugin-videoplayer.videoplayer",
+        "clobbers": [
+            "videoplayer"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-device-motion/www/Acceleration.js",
+        "id": "cordova-plugin-device-motion.Acceleration",
+        "clobbers": [
+            "Acceleration"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-device-motion/www/accelerometer.js",
+        "id": "cordova-plugin-device-motion.accelerometer",
+        "clobbers": [
+            "navigator.accelerometer"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-shake/www/shake.js",
+        "id": "cordova-plugin-shake.Shake",
+        "clobbers": [
+            "shake"
+        ]
+    },
+    {
+        "file": "plugins/com.moust.cordova.videoplayer/www/videoplayer.js",
+        "id": "com.moust.cordova.videoplayer.VideoPlayer",
+        "clobbers": [
+            "VideoPlayer"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -136,7 +185,13 @@ module.exports.metadata =
     "ionic-plugin-keyboard": "2.2.1",
     "cordova-plugin-compat": "1.0.0",
     "cordova-plugin-camera": "2.2.0",
-    "cordova-plugin-contacts": "2.1.0"
+    "cordova-plugin-contacts": "2.1.0",
+    "com.sarriaroman.PhotoViewer": "1.1.5",
+    "com.telerik.plugins.nativepagetransitions": "0.6.5",
+    "cordova-plugin-videoplayer": "0.1.4",
+    "cordova-plugin-device-motion": "1.2.1",
+    "cordova-plugin-shake": "0.5.4",
+    "com.moust.cordova.videoplayer": "1.0.1"
 };
 // BOTTOM OF METADATA
 });

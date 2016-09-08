@@ -30,10 +30,28 @@
         },
         "cordova-plugin-contacts": {
             "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "com.sarriaroman.PhotoViewer": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "com.telerik.plugins.nativepagetransitions": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "cordova-plugin-videoplayer": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "cordova-plugin-shake": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "com.moust.cordova.videoplayer": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "cordova-plugin-device-motion": {
             "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
         }
     }

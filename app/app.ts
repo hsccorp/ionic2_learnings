@@ -8,6 +8,9 @@ import { List1000 } from './pages/list_1000/list_1000';
 import { List500 } from './pages/list_500/list_500';
 import { Videos } from './pages/videos/videos';
 import { ActionSheet } from './pages/actionsheet/actionsheet';
+import { Page6Page } from './pages/Photo(Share)/Photo(Share)';
+import { Page } from './pages/video(plugin)/video(plugin)';
+import { Page4 } from './pages/Shake(Control)/Shake(Control)';
 
 
 @Component({
@@ -31,8 +34,12 @@ class MyApp {
       { title: 'Contacts', component: ContactList },
       { title: 'List ngfor 500', component: List500 },
       { title: 'List ngfor 1000', component: List1000 },
-       { title: 'Videos', component: Videos },
-         { title: 'Action Sheet', component: ActionSheet }
+      { title: 'Videos', component: Videos },
+      { title: 'Action Sheet', component: ActionSheet },
+	  { title: 'Photo(SHARE)', component: Page6Page },
+      { title: 'Shake Control', component: Page4 },
+      { title: 'Video(Plugin)', component: Page }
+	  
     
      
     ];
