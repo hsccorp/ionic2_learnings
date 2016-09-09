@@ -6,7 +6,7 @@ import {NativePageTransitions, TransitionOptions} from 'ionic-native';
 
 
 @Component({
-  templateUrl: 'build/pages/Shake(Control)/Shake(Control).html'
+  templateUrl: 'build/pages/shake_control/Shake(Control).html'
 })
 export class Page4 {
 

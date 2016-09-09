@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Image Picker</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="page1">
+   
+
+<button block (click)="pickImage()">Pick Image (Single)</button>
+ <ion-card-content>
+      <img src={{image}} alt="">
+      
+    </ion-card-content>
+
+</ion-content>

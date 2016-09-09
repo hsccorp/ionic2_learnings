@@ -55,6 +55,10 @@
                         {
                             "xml": "<feature name=\"VideoPlayer\"><param name=\"android-package\" value=\"com.moust.cordova.videoplayer.VideoPlayer\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ImagePicker\"><param name=\"android-package\" value=\"com.synconset.ImagePicker\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -83,6 +87,10 @@
                         {
                             "xml": "<activity android:name=\"com.sarriaroman.PhotoViewer.PhotoActivity\" android:theme=\"@android:style/Theme.Holo.NoActionBar.Fullscreen\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<activity android:label=\"@string/multi_app_name\" android:name=\"com.synconset.MultiImageChooserActivity\" android:theme=\"@android:style/Theme.Holo.Light\"></activity>",
+                            "count": 1
                         }
                     ],
                     "/manifest": [
@@ -92,7 +100,7 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
@@ -147,6 +155,9 @@
             "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
         },
         "com.moust.cordova.videoplayer": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "cordova-plugin-image-picker": {
             "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
         }
     },
@@ -324,6 +335,13 @@
             "clobbers": [
                 "VideoPlayer"
             ]
+        },
+        {
+            "file": "plugins/cordova-plugin-image-picker/www/imagepicker.js",
+            "id": "cordova-plugin-image-picker.ImagePicker",
+            "clobbers": [
+                "plugins.imagePicker"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -341,6 +359,7 @@
         "cordova-plugin-videoplayer": "0.1.4",
         "cordova-plugin-device-motion": "1.2.1",
         "cordova-plugin-shake": "0.5.4",
-        "com.moust.cordova.videoplayer": "1.0.1"
+        "com.moust.cordova.videoplayer": "1.0.1",
+        "cordova-plugin-image-picker": "1.1.1"
     }
 }

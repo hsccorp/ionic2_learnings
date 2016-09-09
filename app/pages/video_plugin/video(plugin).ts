@@ -4,7 +4,7 @@ import {NativePageTransitions, TransitionOptions} from 'ionic-native';
 import {VideoPlayer} from 'ionic-native'
 
 @Component({
-  templateUrl: 'build/pages/video(plugin)/video(plugin).html'
+  templateUrl: 'build/pages/video_plugin/video(plugin).html'
 })
 export class Page {
 

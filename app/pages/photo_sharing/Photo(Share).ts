@@ -10,7 +10,7 @@ import {NativePageTransitions, TransitionOptions} from 'ionic-native';
   Ionic pages and navigation.
 */
 @Component({
-  templateUrl: 'build/pages/Photo(Share)/Photo(Share).html',
+  templateUrl: 'build/pages/photo_sharing/Photo(Share).html',
 })
 export class Page6Page {
 
