@@ -12,7 +12,7 @@ import { Page6Page } from './pages/photo_sharing/Photo(Share)';
 import { Page } from './pages/video_plugin/video(plugin)';
 import { Page4 } from './pages/shake_control/Shake(Control)';
 import { imagePicker } from './pages/image_picker/imagePicker';
-
+import { WiFi } from './pages/wifi/wifi';
 @Component({
   templateUrl: 'build/app.html'
 })
@@ -39,6 +39,7 @@ class MyApp {
 	  { title: 'Photo(SHARE)', component: Page6Page },
       { title: 'Shake Control', component: Page4 },
       { title: 'Video(Plugin)', component: Page },
+      { title: 'WiFi List', component: WiFi },
       { title: 'ImagePicker', component: imagePicker }
 	  
     

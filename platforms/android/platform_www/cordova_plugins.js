@@ -179,6 +179,13 @@ module.exports = [
         "clobbers": [
             "plugins.imagePicker"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-hotspot/www/HotSpotPlugin.js",
+        "id": "cordova-plugin-hotspot.HotSpotPlugin",
+        "clobbers": [
+            "cordova.plugins.hotspot"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -199,7 +206,8 @@ module.exports.metadata =
     "cordova-plugin-device-motion": "1.2.1",
     "cordova-plugin-shake": "0.5.4",
     "com.moust.cordova.videoplayer": "1.0.1",
-    "cordova-plugin-image-picker": "1.1.1"
+    "cordova-plugin-image-picker": "1.1.1",
+    "cordova-plugin-hotspot": "1.2.6"
 };
 // BOTTOM OF METADATA
 });

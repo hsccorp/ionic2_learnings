@@ -48,6 +48,9 @@
         },
         "cordova-plugin-image-picker": {
             "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "cordova-plugin-hotspot": {
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
         }
     },
     "dependent_plugins": {

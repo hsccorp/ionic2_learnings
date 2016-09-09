@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>WiFi Scan List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>   
+    
+  <ion-list [virtualScroll]="mNetworks">
+
+  <ion-item *virtualItem="let network">
+    <wifi-view [networkdata]="network"></wifi-view>
+  </ion-item>
+
+</ion-list>
+
+</ion-content>
