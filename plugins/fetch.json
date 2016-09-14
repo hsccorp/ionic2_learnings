@@ -135,5 +135,31 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-sqlite-storage": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-sqlite-storage"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-datepicker": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/VitaliiBlagodir/cordova-plugin-datepicker",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-tts": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vilic/cordova-plugin-tts",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

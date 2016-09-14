@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Text to Speech</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+     <ion-input type="text" placeholder="Speak" [(ngModel)]="value"></ion-input>
+    
+    <button block (click)="speak()">speak</button>
+   
+</ion-content>

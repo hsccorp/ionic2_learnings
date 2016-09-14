@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>SQLITE</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+     
+   
+     <ion-list>
+         <ion-item *ngFor="let person of people">
+             {{person.name}}
+         </ion-item>
+    </ion-list>
+    <ion-input type="text" placeholder="Name" [(ngModel)]="value" style="position:fixed;bottom:45px;;width:100%;"></ion-input>
+    
+    <button block (click)="save()" style="position:fixed;bottom:0px;width:100%;">Save</button>
+   
+</ion-content>

@@ -13,6 +13,9 @@ import { Page } from './pages/video_plugin/video(plugin)';
 import { Page4 } from './pages/shake_control/Shake(Control)';
 import { imagePicker } from './pages/image_picker/imagePicker';
 import { WiFi } from './pages/wifi/wifi';
+import { Datepicker } from './pages/date_picker/date_picker';
+import { TexttoSpeech } from './pages/tts/tts';
+import { sqlite} from './pages/sqlite/sqlite';
 @Component({
   templateUrl: 'build/app.html'
 })
@@ -40,7 +43,11 @@ class MyApp {
       { title: 'Shake Control', component: Page4 },
       { title: 'Video(Plugin)', component: Page },
       { title: 'WiFi List', component: WiFi },
-      { title: 'ImagePicker', component: imagePicker }
+      { title: 'ImagePicker', component: imagePicker },
+      { title: 'SQLite', component: sqlite },
+      { title: 'Datepicker', component: Datepicker},
+      { title: 'Text to Speech', component:TexttoSpeech}
+      
 	  
     
      

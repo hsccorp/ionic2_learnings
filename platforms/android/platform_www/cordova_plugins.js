@@ -186,6 +186,27 @@ module.exports = [
         "clobbers": [
             "cordova.plugins.hotspot"
         ]
+    },
+    {
+        "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+        "id": "cordova-sqlite-storage.SQLitePlugin",
+        "clobbers": [
+            "SQLitePlugin"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-datepicker/www/android/DatePicker.js",
+        "id": "cordova-plugin-datepicker.DatePicker",
+        "clobbers": [
+            "datePicker"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-tts/www/tts.js",
+        "id": "cordova-plugin-tts.tts",
+        "clobbers": [
+            "TTS"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -207,7 +228,10 @@ module.exports.metadata =
     "cordova-plugin-shake": "0.5.4",
     "com.moust.cordova.videoplayer": "1.0.1",
     "cordova-plugin-image-picker": "1.1.1",
-    "cordova-plugin-hotspot": "1.2.6"
+    "cordova-plugin-hotspot": "1.2.6",
+    "cordova-sqlite-storage": "1.4.7",
+    "cordova-plugin-datepicker": "0.9.2",
+    "cordova-plugin-tts": "0.2.3"
 };
 // BOTTOM OF METADATA
 });
