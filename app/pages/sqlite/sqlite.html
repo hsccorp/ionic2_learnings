@@ -11,11 +11,23 @@
      
    
      <ion-list>
-         <ion-item *ngFor="let person of people">
+         
+         <ion-item-sliding *ngFor=" let person of people" >
+         <ion-item text-wrap >
              {{person.name}}
          </ion-item>
-    </ion-list>
+           
+         
+         <ion-item-options  >
+            <button danger (click)="deleteTask(person)" >
+                <ion-icon name="trash"></ion-icon>
+            </button>
+            
+        </ion-item-options>
+              </ion-item-sliding>
+			  </ion-list>
     <ion-input type="text" placeholder="Name" [(ngModel)]="value" style="position:fixed;bottom:45px;;width:100%;"></ion-input>
+	
     
     <button block (click)="save()" style="position:fixed;bottom:0px;width:100%;">Save</button>
    

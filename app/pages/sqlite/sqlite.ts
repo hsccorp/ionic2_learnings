@@ -9,6 +9,7 @@ export class sqlite {
 public db:SQLite;
 value:any;
  public people: Array<Object>;
+ public deletePerson:any;
   
 
   constructor(public navCtrl: NavController) {
@@ -74,6 +75,28 @@ value:any;
         },(err) => {
   console.error('Unable to open database: ', err);
   });
+    }
+	
+	deleteTask(person)
+    {
+    
+    this.deletePerson=person.name;
+    console.log("delete person name is"+this.deletePerson);
+    
+    this.db.openDatabase({
+  name: 'data.db1',
+  location: 'default' 
+  }).then(() => {
+  this.db.executeSql("DELETE FROM people WHERE name=?",[this.deletePerson]).then((data) => {
+            console.log("INSERTED: " + JSON.stringify(data));
+        }, (error) => {
+            console.log("ERROR: " + JSON.stringify(error.err));
+        });
+        }, (err) => {
+  console.error('Unable to open database: ', err);
+  });
+  this.refresh();
+    console.log("Person deleted by button "+person);
     }
 
   
