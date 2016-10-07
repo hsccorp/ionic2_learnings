@@ -17,6 +17,7 @@ import { Datepicker } from './pages/date_picker/date_picker';
 import { TexttoSpeech } from './pages/tts/tts';
 import { sqlite} from './pages/sqlite/sqlite';
 import { Map } from './pages/map_plugin/map_plugin';
+import { MapJs } from './pages/map_js/map_js';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -49,7 +50,8 @@ class MyApp {
       { title: 'SQLite', component: sqlite },
       { title: 'Datepicker', component: Datepicker},
       { title: 'Text to Speech', component:TexttoSpeech},
-      { title: 'Map Plugin', component:Map}
+      { title: 'Map Plugin', component:Map},
+      { title: 'Map JS', component:MapJs}
       
 	  
     
