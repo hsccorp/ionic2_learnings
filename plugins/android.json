@@ -60,6 +60,10 @@
         },
         "cordova-plugin-tts": {
             "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
+        },
+        "plugin.google.maps": {
+            "API_KEY_FOR_ANDROID": "AIzaSyDPrI_O0P5e_5GlxJTTeHvelgVQbAacLWM",
+            "PACKAGE_NAME": "com.ionicframework.myfirstapp102059"
         }
     },
     "dependent_plugins": {

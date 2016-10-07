@@ -207,6 +207,13 @@ module.exports = [
         "clobbers": [
             "TTS"
         ]
+    },
+    {
+        "file": "plugins/plugin.google.maps/www/googlemaps-cdv-plugin.js",
+        "id": "plugin.google.maps.phonegap-googlemaps-plugin",
+        "clobbers": [
+            "plugin.google.maps"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -231,7 +238,8 @@ module.exports.metadata =
     "cordova-plugin-hotspot": "1.2.6",
     "cordova-sqlite-storage": "1.4.7",
     "cordova-plugin-datepicker": "0.9.2",
-    "cordova-plugin-tts": "0.2.3"
+    "cordova-plugin-tts": "0.2.3",
+    "plugin.google.maps": "1.3.9"
 };
 // BOTTOM OF METADATA
 });

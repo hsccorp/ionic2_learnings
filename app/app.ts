@@ -16,6 +16,8 @@ import { WiFi } from './pages/wifi/wifi';
 import { Datepicker } from './pages/date_picker/date_picker';
 import { TexttoSpeech } from './pages/tts/tts';
 import { sqlite} from './pages/sqlite/sqlite';
+import { Map } from './pages/map_plugin/map_plugin';
+
 @Component({
   templateUrl: 'build/app.html'
 })
@@ -46,7 +48,8 @@ class MyApp {
       { title: 'ImagePicker', component: imagePicker },
       { title: 'SQLite', component: sqlite },
       { title: 'Datepicker', component: Datepicker},
-      { title: 'Text to Speech', component:TexttoSpeech}
+      { title: 'Text to Speech', component:TexttoSpeech},
+      { title: 'Map Plugin', component:Map}
       
 	  
     
